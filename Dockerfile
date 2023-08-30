@@ -6,7 +6,7 @@ FROM emindsguardians/ubuntu18-python37-octave-req-basepack:v2
 WORKDIR /home/eminds
 #multiprocess/em-dt-backend/FenceGraph/SG_Fence_Core/
 
-ADD em-dt-backend /home/eminds/em-dt-backend
+ADD FenceGraph /home/eminds/em-dt-backend
 
 
 # Install FastAPI and other dependencies
